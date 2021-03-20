@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   postgres:
-    image: postgres:10.2
+    image: postgres:10.3
     restart: always
     environment:
       - POSTGRES_USER=sammy
